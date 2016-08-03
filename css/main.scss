@@ -3,9 +3,17 @@
 ---
 
 
+html{
+  background: url('../assets/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 .link{
   stroke: black;
-  stroke-width: 2px;
+  stroke-width: 1px;
 }
 
 .box{
@@ -14,4 +22,8 @@
   .node{
     position: absolute;
   }
+}
+
+h1,h6{
+  text-align: center;
 }
