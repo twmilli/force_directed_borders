@@ -1,0 +1,17 @@
+---
+# Front matter comment to ensure Jekyll properly reads file.
+---
+
+
+.link{
+  stroke: black;
+  stroke-width: 2px;
+}
+
+.box{
+  position: absolute;
+
+  .node{
+    position: absolute;
+  }
+}
